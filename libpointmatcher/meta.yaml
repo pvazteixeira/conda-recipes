@@ -1,0 +1,27 @@
+package:
+  name: libpointmatcher
+  version: 1.2.3
+
+source:
+  git_url: https://github.com/ethz-asl/libpointmatcher.git
+  git_rev: 1.2.3
+
+requirements:
+    build:
+      - cmake
+      - eigen
+      - boost
+      - libnabo
+      - glib
+      - glog
+      - toolchain
+    run:
+      - eigen
+      - boost
+      - libnabo
+      - glib
+      - glog
+
+about:
+    home: https://github.com/ethz-asl/libpointmatcher
+    license: 
